@@ -1,0 +1,50 @@
+[
+    {
+        "event": "Device Auth",
+        "status": "Failed - Not Registered",
+        "device_id": "IOT-001",
+        "user_id": "",
+        "time": "2026-04-10 04:23:33",
+        "date": "2026-04-10"
+    },
+    {
+        "event": "Device Registration",
+        "status": "Success",
+        "device_id": "IOT-001",
+        "user_id": "admin",
+        "time": "2026-04-10 04:24:17",
+        "date": "2026-04-10"
+    },
+    {
+        "event": "User Registration",
+        "status": "Success",
+        "device_id": "",
+        "user_id": "maha",
+        "time": "2026-04-10 04:24:42",
+        "date": "2026-04-10"
+    },
+    {
+        "event": "Device Authentication",
+        "status": "Success",
+        "device_id": "IOT-001",
+        "user_id": "",
+        "time": "2026-04-10 04:24:52",
+        "date": "2026-04-10"
+    },
+    {
+        "event": "Device Auth",
+        "status": "Failed - Not Registered",
+        "device_id": "IOT-002",
+        "user_id": "",
+        "time": "2026-04-10 04:25:25",
+        "date": "2026-04-10"
+    },
+    {
+        "event": "Device Authentication",
+        "status": "Success",
+        "device_id": "IOT-001",
+        "user_id": "",
+        "time": "2026-04-10 04:25:36",
+        "date": "2026-04-10"
+    }
+]

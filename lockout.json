@@ -1,0 +1,10 @@
+{
+    "IOT-001": {
+        "attempts": 0,
+        "locked_until": null
+    },
+    "IOT-002": {
+        "attempts": 1,
+        "locked_until": null
+    }
+}

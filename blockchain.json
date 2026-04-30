@@ -1,0 +1,46 @@
+[
+    {
+        "index": 0,
+        "timestamp": "2026-04-06 10:08:01.274341",
+        "event_type": "GENESIS",
+        "device_id": "system",
+        "user_id": "system",
+        "data_hash": "aeebad4a796fcc2e15dc4c6061b45ed9b373f26adfc798ca7d2d8cc58182718e",
+        "merkle_root": "aeebad4a796fcc2e15dc4c6061b45ed9b373f26adfc798ca7d2d8cc58182718e",
+        "previous_hash": "0",
+        "hash": "daf4973cdf8d4d4ea6bcf4d3f44dacdfa6bbdbd2fd3274a8aa31c270337697eb"
+    },
+    {
+        "index": 1,
+        "timestamp": "2026-04-10 04:24:17.124122",
+        "event_type": "DEVICE_REGISTER",
+        "device_id": "IOT-001",
+        "user_id": "admin",
+        "data_hash": "94786d14440f634d03cd5a25096f15d23f467e1283442dcba68795d54f4bbcde",
+        "merkle_root": "ee19a5cfb3e22a76ee69503d5819c61aa57d50aa56033d71d1e6d1cf505e8073",
+        "previous_hash": "daf4973cdf8d4d4ea6bcf4d3f44dacdfa6bbdbd2fd3274a8aa31c270337697eb",
+        "hash": "1249483a82bd04c02d86cca8fbfbd25302900d28b59e8738dd2b51167679d451"
+    },
+    {
+        "index": 2,
+        "timestamp": "2026-04-10 04:24:52.638423",
+        "event_type": "DEVICE_AUTH",
+        "device_id": "IOT-001",
+        "user_id": "pending",
+        "data_hash": "765fe1513ff0479ddd300da5a897ae5ce11352f7322734d32eea36923e7f39d4",
+        "merkle_root": "5a7645ea2b3bed70fb8037ab565314f8d7b5e47bac3977b3e939c6b0a7ba719c",
+        "previous_hash": "1249483a82bd04c02d86cca8fbfbd25302900d28b59e8738dd2b51167679d451",
+        "hash": "407e692ac7738e74814b4f142a222273eb24df7947a061f96dc735370fb52e5c"
+    },
+    {
+        "index": 3,
+        "timestamp": "2026-04-10 04:25:36.061779",
+        "event_type": "DEVICE_AUTH",
+        "device_id": "IOT-001",
+        "user_id": "pending",
+        "data_hash": "765fe1513ff0479ddd300da5a897ae5ce11352f7322734d32eea36923e7f39d4",
+        "merkle_root": "5a7645ea2b3bed70fb8037ab565314f8d7b5e47bac3977b3e939c6b0a7ba719c",
+        "previous_hash": "407e692ac7738e74814b4f142a222273eb24df7947a061f96dc735370fb52e5c",
+        "hash": "cdf4df1f928f77c2afc9017505d152c2ffb32d0cfbd52b28be02adcdf78cf1fc"
+    }
+]

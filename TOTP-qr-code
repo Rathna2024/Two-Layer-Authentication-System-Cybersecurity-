@@ -1,0 +1,23 @@
+import pyotp
+import qrcode
+
+def setup_totp(account_name, issuer_name):
+    # Generate a random TOTP secret for the user/device
+    totp_secret = pyotp.random_base32()
+    print(f"TOTP Secret (store securely!): {totp_secret}")
+
+    # Build the provisioning URI (compatible with Google Authenticator)
+    totp_uri = pyotp.totp.TOTP(totp_secret).provisioning_uri(name=account_name, issuer_name=issuer_name)
+    print(f"Provisioning URI: {totp_uri}")
+
+    # Generate a QR code for user provisioning
+    qr = qrcode.QRCode(version=1, box_size=10, border=4)
+    qr.add_data(totp_uri)
+    qr.make(fit=True)
+    img = qr.make_image(fill="black", back_color="white")
+    img.save("totp_qr.png")
+    print("QR code saved as 'totp_qr.png'. Scan this code into your Authenticator app.")
+
+if __name__ == "__main__":
+    setup_totp("User123", "IoTAuthDemo")
+
